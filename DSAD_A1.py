@@ -173,7 +173,7 @@ def process_stock_prices(input_file, output_file, capacity=None):
 
 input_file = 'inputPS03.txt'
 output_file = 'outputPS03.txt'
-capacity = 50  # capacity of the nodes can be changed here. For now, it's set to 50, if entries exceed 50 it will generate an error
+capacity = 1000  # capacity of the nodes can be changed here. For now, it's set to 50, if entries exceed 50 it will generate an error
 
 process_stock_prices(input_file, output_file, capacity)
 
